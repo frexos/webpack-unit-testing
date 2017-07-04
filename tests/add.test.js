@@ -3,6 +3,6 @@ const add = require('./add');
 
 describe('Demo', () => {
     it('should add correctly', () => {
-        assert.equal(add(1, 1), 2);
+        assert.equal(add(1, 1), 3);
     });
 });
