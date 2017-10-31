@@ -11,12 +11,9 @@
     ]
   ],
   "env": {
-    "karma": {
-      "plugins": [
-        [
-          "istanbul",
-          { "exclude": ["tests/*.test.js"] }
-        ]
+    "testing": {
+      "presets": [
+        "es2015"
       ]
     }
   }
